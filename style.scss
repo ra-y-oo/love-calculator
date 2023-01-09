@@ -1,0 +1,30 @@
+:root{
+    --primary-col: #FF99C2;
+    --bold: #FF2222;
+    --btn-hover: #C93131;
+}
+*{
+    font-family: 'Cooper',serif;
+}
+body{
+    background: var(--primary-col);
+    height: 100vh;
+}
+.content{
+    color: white;
+    button{
+        border: solid var(--bold);
+        border-radius: 10px;
+        padding: 10px;
+        background-color: var(--bold);
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+    }
+    button:hover{
+        border: solid var(--btn-hover);
+        background-color: var(--btn-hover);
+    }
+}
