@@ -7,12 +7,22 @@
 
 body {
   background: var(--primary-col);
-  background-image: url(./assets/background.png);
   height: 100vh;
 }
 
+.top .left {
+  position: fixed;
+  top: 0;
+  left: 10px;
+}
+.top .right {
+  position: fixed;
+  top: 0;
+  right: 10px;
+}
+
 .content {
-  margin: 100px auto;
+  margin: auto;
   justify-content: center;
   text-align: center;
   font-family: "Cooper", serif;
@@ -21,7 +31,7 @@ body {
 .content h1 {
   font-size: 4.5em;
   justify-content: center;
-  margin: 300px auto;
+  margin: 100px auto;
 }
 .content p {
   font-size: 3em;
@@ -29,7 +39,7 @@ body {
 .content .btn {
   background-color: var(--btn-hover);
   border-radius: 10px;
-  margin: 100px auto;
+  margin: auto;
   width: 7em;
 }
 .content .btn .btn-link {
@@ -37,13 +47,4 @@ body {
   color: white;
   margin: auto;
   padding: 5px;
-}
-
-.inputArea {
-  background-color: rgb(246, 234, 243);
-  width: 250px;
-  height: 50px;
-  margin: 10px auto;
-  border-radius: 10px;
-  border-color: var(--primary-col);
 }/*# sourceMappingURL=style.css.map */
