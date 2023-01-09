@@ -1,0 +1,49 @@
+:root {
+  --primary-col: #FF99C2;
+  --btn: #fff;
+  --bold: #FF2222;
+  --btn-hover: #C93131;
+}
+
+body {
+  background: var(--primary-col);
+  background-image: url(./assets/background.png);
+  height: 100vh;
+}
+
+.content {
+  margin: 100px auto;
+  justify-content: center;
+  text-align: center;
+  font-family: "Cooper", serif;
+  color: #fff;
+}
+.content h1 {
+  font-size: 4.5em;
+  justify-content: center;
+  margin: 300px auto;
+}
+.content p {
+  font-size: 3em;
+}
+.content .btn {
+  background-color: var(--btn-hover);
+  border-radius: 10px;
+  margin: 100px auto;
+  width: 7em;
+}
+.content .btn .btn-link {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  padding: 5px;
+}
+
+.inputArea {
+  background-color: rgb(246, 234, 243);
+  width: 250px;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border-color: var(--primary-col);
+}/*# sourceMappingURL=style.css.map */
